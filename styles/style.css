@@ -38,6 +38,9 @@ section{
 .dark50{
     color: rgba(14, 14, 14, 0.50);
 }
+.dark60{
+    color: rgba(14, 14, 14, 0.60);
+}
 .dark70{
     color: rgba(14, 14, 14, 0.70);
 }
@@ -181,4 +184,15 @@ nav a button{
     gap: 48px;
     border-radius: 8px;
     background-color: #FFC239;
+}
+.quote{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: ;
+    margin-top: 30px;
+    padding: 48px 24px;
+    flex: 1 0 0;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: #FFF;
 }
