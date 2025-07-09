@@ -1,6 +1,37 @@
+/* font style */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* universal style */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* common style */
+.display-width{
+    max-width: 1280px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.dark1{
+    color: #0E0E0E;
+}
+/* nav section */
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0; 
+}
+nav li a{
+    text-decoration: none;
+}
+nav a h1{
+    font-family: "Fira Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
